@@ -1,3 +1,9 @@
+sugar-labyrinth-activity (16-1~0tch2) trusty; urgency=medium
+
+  * Remove versoned toolkit.
+
+ -- Martin Abente Lahaye <tch@sugarlabs.org>  Thu, 23 Jul 2015 14:36:49 -0400
+
 sugar-labyrinth-activity (16-1~0tch1) trusty; urgency=medium
 
   * Remove dependency on specific sugar-artwork.
