@@ -34,11 +34,11 @@ DEB_UPSTREAM_TARBALL_EXTENSION = tar.bz2
 CDBS_BUILD_DEPENDS_class_python-sugar_python = python
 
 # Override Sugar toolkit to use
-CDBS_BUILD_DEPENDS_class_python-sugar_sugar = python-sugar-0.98, python-sugar-toolkit-0.98, unzip
+CDBS_BUILD_DEPENDS_class_python-sugar_sugar = python-sugar, python-sugar-toolkit, unzip
 
 # Suppress binary files to not upset dpkg
 DEB_COPYRIGHT_CHECK_IGNORE_REGEX = ^(sounds/.*\.wav|debian/(changelog|copyright(|_hints|_newhints)))$
 
 # Needed (always/often/seldom) at runtime
 CDBS_DEPENDS_$(pkg) = python, python-gobject-2, python-gtk2, python-cairo
-CDBS_DEPENDS_$(pkg) +=, python-sugar-0.98, python-sugar-toolkit-0.98
+CDBS_DEPENDS_$(pkg) +=, python-sugar, python-sugar-toolkit
